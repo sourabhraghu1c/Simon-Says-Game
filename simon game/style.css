@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-image: url('./images/Simon-bg2.jpg');
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 20%;
+    margin: 15px;
+}
+
+.yellow{
+    background-color: #dfcd2e;
+}
+.maroon{
+    background-color: rgb(96, 4, 4);
+}
+.green{
+    background-color: rgb(163, 190, 121);
+}
+.purple{
+    background-color: rgb(182, 96, 182);
+}
+
+.flash{
+    background-color: white;
+}
+
+.flashExit{
+    background-image: none;
+    background-color: red;
+}
