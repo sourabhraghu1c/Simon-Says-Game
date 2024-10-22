@@ -12,25 +12,30 @@ body{
     justify-content: center;
 }
 
-.btn{
+.btn {
     height: 200px;
     width: 200px;
     border: 5px solid black;
-    border-radius: 20%;
+    /* border-radius: 50% 80% 70% 10%; */
     margin: 15px;
 }
 
+
 .yellow{
     background-color: #dfcd2e;
+    border-radius: 50% 10% 50% 10%;
 }
 .maroon{
     background-color: rgb(96, 4, 4);
+    border-radius: 10% 50% 10% 50%;
 }
 .green{
     background-color: rgb(163, 190, 121);
+    border-radius: 10% 50% 10% 50%;
 }
 .purple{
     background-color: rgb(182, 96, 182);
+    border-radius: 50% 10% 50% 10%;
 }
 
 .flash{
